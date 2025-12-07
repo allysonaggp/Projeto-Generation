@@ -10,7 +10,7 @@ do {
     // instancia do menu
     menu.mostrarOpcoes()
 
-    opcao = read.questionInt(`${colors.fg.white}Entre com a Opção desejada: `)
+    opcao = read.questionInt(`Entre com a Opção desejada: `)
     switch (opcao) {
         case 1:
             console.log("case 1:")
