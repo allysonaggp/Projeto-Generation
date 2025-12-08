@@ -6,10 +6,9 @@ Este projeto esta em desenvolvimento como parte das atividades da **Generation B
 
 O repositório contém os seguintes arquivos principais:
 
-- **`banco.ts`** → Script relacionado a operações de banco de dados ou lógica financeira.
-- **`projeto.ts`** → Arquivo principal do projeto, onde está concentrada a lógica central.
+- **`banco.ts`** → Arquivo principal do projeto, onde está concentrada a lógica central.
 - **`package.json`** e **`package-lock.json`** → Configuração de dependências e scripts do Node.js.
-- **`tsconfig.json`** e **`tsconfig2.json`** → Configurações do compilador TypeScript.
+- **`tsconfig.json`** → Configurações do compilador TypeScript.
 - **`.gitignore`** → Arquivos e pastas ignorados pelo Git.
 
 ## 🚀 Tecnologias Utilizadas
