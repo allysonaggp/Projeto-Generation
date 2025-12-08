@@ -22,12 +22,14 @@ O repositório contém os seguintes arquivos principais:
 - Praticar conceitos de TypeScript.
 - Aprender sobre configuração de projetos com tsconfig.
 - Exercitar o uso de Git e GitHub para versionamento.
+
 🤝 Contribuição
 Sinta-se à vontade para abrir issues e enviar pull requests com melhorias ou sugestões.
+
 📄 Licença
 Este projeto está sob a licença MIT – veja o arquivo LICENSE para mais detalhes.
 
----
+
 
 
 

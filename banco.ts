@@ -3,6 +3,7 @@ import read = require("readline-sync")
 import { Menu } from "./src/util/menu"
 import { Conta } from "./src/model/Conta"
 import { sobre } from "./src/util/sobre"
+
 // Declaracao das Constantes e Variaveis
 let opcao: number, menu = new Menu
 
