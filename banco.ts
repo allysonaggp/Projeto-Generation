@@ -46,6 +46,8 @@ do {
             console.log("Transferir Valores entre Contas")
             break
         case 9:
+            sobre()
+            console.log("\nSaindo do Sistema!")
             break
         default:
             console.log("Digite uma opção Valida!")
@@ -53,6 +55,5 @@ do {
     }
 
 } while (opcao !== 9)
-sobre()
-console.log("\nSaindo do Sistema!")
+
 
