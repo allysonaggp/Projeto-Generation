@@ -17,6 +17,8 @@ O repositório contém os seguintes arquivos principais:
 - [Node.js](https://nodejs.org/) – Ambiente de execução.
 - Git/GitHub – Controle de versão e hospedagem do código.
 
+## 📷 Imagens
+![alt text](src\img\image.png)
 
 📌 Objetivos
 - Praticar conceitos de TypeScript.
