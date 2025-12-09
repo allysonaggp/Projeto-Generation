@@ -7,6 +7,7 @@ export class Menu {
         console.log(colors.fg.green, ` *     * ${colors.fg.yellow}  *    ${colors.fg.blue}* ${colors.fg.white}BANCO DO BRAZIL COM Z${colors.fg.blue} *   ${colors.fg.yellow} *   ${colors.fg.green} *     * `)
         console.log(colors.fg.green, `    *      ${colors.fg.yellow} *      ${colors.fg.blue}* * * * * * * * * *    ${colors.fg.yellow}  *   ${colors.fg.green}     *    `)
         console.log(colors.fg.green, `=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=${colors.reset}`)
+        console.log(`${colors.fg.green}        =-=-${colors.fg.yellow}=-=${colors.fg.blue}-=-${colors.reset}     Menu Principal     ${colors.fg.blue}-=-${colors.fg.yellow}=-=${colors.fg.green}-=-= ${colors.reset}\n                       `)
         console.log(colors.fg.gray, `                                                          `)
         console.log(colors.fg.yellow, `        [ ${colors.fg.white}1${colors.fg.yellow} ]${colors.fg.blue} -${colors.fg.white} Criar Conta                              `)
         console.log(colors.fg.yellow, `        [ ${colors.fg.white}2${colors.fg.yellow} ]${colors.fg.blue} -${colors.fg.white} Listar todas as Contas                   `)
