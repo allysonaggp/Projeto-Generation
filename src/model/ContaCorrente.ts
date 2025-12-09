@@ -1,5 +1,6 @@
 import { Conta } from "./Conta";
 import { colors } from "../util/colors";
+
 export class ContaCorrent extends Conta {
     private _limite: number
 
@@ -16,15 +17,17 @@ export class ContaCorrent extends Conta {
     }
 
     public sacar(valor: number): boolean {
-        if ((this.saldo + this._limite) > valor) {
+        if ((this.saldo + this._limite) < valor) {
             console.log(`\n${colors.fg.red}Saldo Insuficiente!${colors.reset}`)
             return false
         }
         this.saldo = this.saldo - valor
         return true
     }
-    public visualisar(): void {
+
+    public visualizar(): void {
         super.visualizar()
         console.log(`Limite: ${this._limite.toFixed(2)}`)
     }
 }
+

@@ -68,11 +68,11 @@ export class Conta {
 
     // Visualizar
     public visualizar(): void {
-        console.log(colors.fg.green, `=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=${colors.reset}`)
+ console.log(colors.fg.green, `=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=${colors.reset}`)
         console.log(colors.fg.green, `    *      ${colors.fg.yellow} *      ${colors.fg.blue}* * * * * * * * * *    ${colors.fg.yellow}  *   ${colors.fg.green}     *    `)
         console.log(colors.fg.green, ` *     * ${colors.fg.yellow}  *    ${colors.fg.blue}* ${colors.fg.white}BANCO DO BRAZIL COM Z${colors.fg.blue} *   ${colors.fg.yellow} *   ${colors.fg.green} *     * `)
         console.log(colors.fg.green, `    *      ${colors.fg.yellow} *      ${colors.fg.blue}* * * * * * * * * *    ${colors.fg.yellow}  *   ${colors.fg.green}     *    `)
-        console.log(colors.fg.green, `=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=${colors.reset}\n`)
+        console.log(colors.fg.green, `=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=${colors.reset}`)
 //         let tipo: string = read.question(`Digite o tipo de Conta:
 
 // ${colors.fg.yellow}[${colors.reset} 1 ${colors.fg.yellow}]${colors.fg.blue} -${colors.reset} Conta Corrente
@@ -92,9 +92,9 @@ export class Conta {
         //         console.log("Digite uma opção valida!")
         //         break
         // }
-        console.log(`\n${colors.fg.green}=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=${colors.reset}`)
-        console.log(`                    Dados da conta                       `)
-        console.log(`${colors.fg.green}=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=${colors.reset}`)
+        // console.log(`\n${colors.fg.green}=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=${colors.reset}`)
+        console.log(`${colors.fg.green}        =-=-${colors.fg.yellow}=-=${colors.fg.blue}-=-${colors.reset}     Dados da Conta     ${colors.fg.blue}-=-${colors.fg.yellow}=-=${colors.fg.green}-=-= ${colors.reset}\n                       `)
+        // console.log(`${colors.fg.green}=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=${colors.reset}`)
         console.log(`Numero da Conta: ${this._numero}`)
         console.log(`Agência: ${this._agencia}`)
         console.log(`Tipo da Conta: ${this._tipo}`)

@@ -4,6 +4,7 @@ import { Menu } from "./src/util/menu"
 import { Conta } from "./src/model/Conta"
 import { sobre } from "./src/util/sobre"
 import { ContaCorrent } from "./src/model/ContaCorrente"
+import { ContaPoupanca } from "./src/model/ContaPoupanca"
 
 // Declaracao das Constantes e Variaveis
 let opcao: number, menu = new Menu
@@ -12,21 +13,27 @@ let opcao: number, menu = new Menu
 
 // Teste Objeto conta
 const conta: Conta = new Conta(1, 123, 1, "Adriana", 10000)
- conta.visualizar()
- conta.sacar(10500)
- conta.visualizar()
- conta.depositar(5000)
- conta.visualizar()
+conta.visualizar()
+conta.sacar(10500)
+conta.visualizar()
+conta.depositar(5000)
+conta.visualizar()
 
 // Teste Objeto Conta Corrente
-const contaCorrente:ContaCorrent=new ContaCorrent(2,123,1,"mariana",15000,1000)
- contaCorrente.visualizar()
- contaCorrente.sacar(2000)
- contaCorrente.visualizar()
- contaCorrente.depositar(1000)
- contaCorrente.visualizar()
+const contaCorrente: ContaCorrent = new ContaCorrent(2, 123, 1, "mariana", 15000, 1000)
+contaCorrente.visualizar()
+contaCorrente.sacar(2000)
+contaCorrente.visualizar()
+contaCorrente.depositar(1000)
+contaCorrente.visualizar()
 
 // Teste Objeto Conta Poupança
+const contaPoupanca: ContaPoupanca = new ContaPoupanca(3,123,2,"Victor",1000,10)
+contaCorrente.visualizar()
+contaCorrente.sacar(200)
+contaCorrente.visualizar()
+contaCorrente.depositar(1000)
+contaCorrente.visualizar()
 
 // Loop
 do {
