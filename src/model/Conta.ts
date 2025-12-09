@@ -73,29 +73,29 @@ export class Conta {
         console.log(colors.fg.green, ` *     * ${colors.fg.yellow}  *    ${colors.fg.blue}* ${colors.fg.white}BANCO DO BRAZIL COM Z${colors.fg.blue} *   ${colors.fg.yellow} *   ${colors.fg.green} *     * `)
         console.log(colors.fg.green, `    *      ${colors.fg.yellow} *      ${colors.fg.blue}* * * * * * * * * *    ${colors.fg.yellow}  *   ${colors.fg.green}     *    `)
         console.log(colors.fg.green, `=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=${colors.reset}\n`)
-        let tipo: string = read.question(`Digite o tipo de Conta:
+//         let tipo: string = read.question(`Digite o tipo de Conta:
 
-${colors.fg.yellow}[${colors.reset} 1 ${colors.fg.yellow}]${colors.fg.blue} -${colors.reset} Conta Corrente
-${colors.fg.yellow}[${colors.reset} 2 ${colors.fg.yellow}]${colors.fg.blue} -${colors.reset} Conta Poupança
+// ${colors.fg.yellow}[${colors.reset} 1 ${colors.fg.yellow}]${colors.fg.blue} -${colors.reset} Conta Corrente
+// ${colors.fg.yellow}[${colors.reset} 2 ${colors.fg.yellow}]${colors.fg.blue} -${colors.reset} Conta Poupança
 
 
-${colors.fg.green}=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=${colors.reset}
-Opção escolhida: `)
-        switch (this._tipo) {
-            case 1:
-                tipo = "Conta Corrente"
-                break
-            case 2:
-                tipo = "Conta poupança"
-                break
-            default:
-                console.log("Digite uma opção valida!")
-                break
-        }
+// ${colors.fg.green}=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=${colors.reset}
+// Opção escolhida: `)
+        // switch (this._tipo) {
+        //     case 1:
+        //         tipo = "Conta Corrente"
+        //         break
+        //     case 2:
+        //         tipo = "Conta poupança"
+        //         break
+        //     default:
+        //         console.log("Digite uma opção valida!")
+        //         break
+        // }
         console.log(`\n${colors.fg.green}=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=${colors.reset}`)
         console.log(`                    Dados da conta                       `)
         console.log(`${colors.fg.green}=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=${colors.reset}`)
-        console.log(`Numero da Conta${this._numero}`)
+        console.log(`Numero da Conta: ${this._numero}`)
         console.log(`Agência: ${this._agencia}`)
         console.log(`Tipo da Conta: ${this._tipo}`)
         console.log(`Titular: ${this._titular}`)

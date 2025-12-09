@@ -3,17 +3,30 @@ import read = require("readline-sync")
 import { Menu } from "./src/util/menu"
 import { Conta } from "./src/model/Conta"
 import { sobre } from "./src/util/sobre"
+import { ContaCorrent } from "./src/model/ContaCorrente"
 
 // Declaracao das Constantes e Variaveis
 let opcao: number, menu = new Menu
 
-// Objeto da Classe Conta (Teste)
+// Testes -------------------------------------------------------
+
+// Teste Objeto conta
 const conta: Conta = new Conta(1, 123, 1, "Adriana", 10000)
-//  conta.visualizar()
-//  conta.sacar(10500)
-//  conta.visualizar()
-//  conta.depositar(5000)
-//  conta.visualizar()
+ conta.visualizar()
+ conta.sacar(10500)
+ conta.visualizar()
+ conta.depositar(5000)
+ conta.visualizar()
+
+// Teste Objeto Conta Corrente
+const contaCorrente:ContaCorrent=new ContaCorrent(2,123,1,"mariana",15000,1000)
+ contaCorrente.visualizar()
+ contaCorrente.sacar(2000)
+ contaCorrente.visualizar()
+ contaCorrente.depositar(1000)
+ contaCorrente.visualizar()
+
+// Teste Objeto Conta Poupança
 
 // Loop
 do {
