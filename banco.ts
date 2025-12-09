@@ -61,7 +61,7 @@ do {
             console.log("Sacar")
             break
         case 7:
-            console.log("Cepositar")
+            console.log("Depositar")
             break
         case 8:
             console.log("Transferir Valores entre Contas")
