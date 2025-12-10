@@ -18,7 +18,7 @@ O repositório contém os seguintes arquivos principais:
 - Git/GitHub – Controle de versão e hospedagem do código.
 
 ## 📷 Imagens
-![alt text](src\img\image.png)
+![alt text](https://raw.githubusercontent.com/allysonaggp/Projeto-Generation/refs/heads/main/src/img/image.png)
 
 📌 Objetivos
 - Praticar conceitos de TypeScript.
