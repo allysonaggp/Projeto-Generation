@@ -32,6 +32,13 @@ export abstract class Conta {
     public set agencia(agencia: number) {
         this._agencia = agencia
     }
+    // Tipo
+    public get tipo() {
+        return this._tipo;
+    }
+    public set tipo(tipo: number) {
+        this._tipo = tipo;
+    }
 
     // Titular
     public get titular() {
@@ -73,26 +80,26 @@ export abstract class Conta {
         console.log(`${colors.fg.green} *     * ${colors.fg.yellow}  *    ${colors.fg.blue}* ${colors.fg.white}BANCO DO BRAZIL COM Z${colors.fg.blue} *   ${colors.fg.yellow} *   ${colors.fg.green} *     * `)
         console.log(`${colors.fg.green}    *      ${colors.fg.yellow} *      ${colors.fg.blue}* * * * * * * * * *    ${colors.fg.yellow}  *   ${colors.fg.green}     *    `)
         console.log(`${colors.fg.green}=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=${colors.reset}`)
-//         let tipo: string = read.question(`        
-//         Digite o tipo de Conta:
+        //         let tipo: string = read.question(`        
+        //         Digite o tipo de Conta:
 
-//         ${colors.fg.yellow}[${colors.reset} 1 ${colors.fg.yellow}]${colors.fg.blue} -${colors.reset} Conta Corrente
-//         ${colors.fg.yellow}[${colors.reset} 2 ${colors.fg.yellow}]${colors.fg.blue} -${colors.reset} Conta Poupança
+        //         ${colors.fg.yellow}[${colors.reset} 1 ${colors.fg.yellow}]${colors.fg.blue} -${colors.reset} Conta Corrente
+        //         ${colors.fg.yellow}[${colors.reset} 2 ${colors.fg.yellow}]${colors.fg.blue} -${colors.reset} Conta Poupança
 
 
-// ${colors.fg.green}=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=${colors.reset}
-// Opção escolhida: `)
-//         switch (this._tipo) {
-//             case 1:
-//                 tipo = "Conta Corrente"
-//                 break
-//             case 2:
-//                 tipo = "Conta poupança"
-//                 break
-//             default:
-//                 console.log("Digite uma opção valida!")
-//                 break
-//         }
+        // ${colors.fg.green}=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=${colors.reset}
+        // // Opção escolhida: `)
+        //         switch (this._tipo) {
+        //             case 1:
+        //                 tipo = "Conta Corrente"
+        //                 break
+        //             case 2:
+        //                 tipo = "Conta poupança"
+        //                 break
+        //             default:
+        //                 console.log("Digite uma opção valida!")
+        //                 break
+        //         }
         // console.log(`${colors.fg.green}=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=${colors.reset}`)
         // console.log(`${colors.fg.green}    *      ${colors.fg.yellow} *      ${colors.fg.blue}* * * * * * * * * *    ${colors.fg.yellow}  *   ${colors.fg.green}     *    `)
         // console.log(`${colors.fg.green} *     * ${colors.fg.yellow}  *    ${colors.fg.blue}* ${colors.fg.white}BANCO DO BRAZIL COM Z${colors.fg.blue} *   ${colors.fg.yellow} *   ${colors.fg.green} *     * `)
