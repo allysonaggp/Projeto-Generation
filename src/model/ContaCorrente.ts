@@ -1,7 +1,7 @@
 import { Conta } from "./Conta";
 import { colors } from "../util/colors";
 
-export class ContaCorrent extends Conta {
+export class ContaCorrente extends Conta {
     private _limite: number
 
     constructor(conta: number, agencia: number, tipo: number, titular: string, saldo: number, limite: number) {

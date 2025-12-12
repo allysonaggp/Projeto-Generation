@@ -73,31 +73,31 @@ export abstract class Conta {
         console.log(`${colors.fg.green} *     * ${colors.fg.yellow}  *    ${colors.fg.blue}* ${colors.fg.white}BANCO DO BRAZIL COM Z${colors.fg.blue} *   ${colors.fg.yellow} *   ${colors.fg.green} *     * `)
         console.log(`${colors.fg.green}    *      ${colors.fg.yellow} *      ${colors.fg.blue}* * * * * * * * * *    ${colors.fg.yellow}  *   ${colors.fg.green}     *    `)
         console.log(`${colors.fg.green}=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=${colors.reset}`)
-        let tipo: string = read.question(`        
-        Digite o tipo de Conta:
+//         let tipo: string = read.question(`        
+//         Digite o tipo de Conta:
 
-        ${colors.fg.yellow}[${colors.reset} 1 ${colors.fg.yellow}]${colors.fg.blue} -${colors.reset} Conta Corrente
-        ${colors.fg.yellow}[${colors.reset} 2 ${colors.fg.yellow}]${colors.fg.blue} -${colors.reset} Conta Poupança
+//         ${colors.fg.yellow}[${colors.reset} 1 ${colors.fg.yellow}]${colors.fg.blue} -${colors.reset} Conta Corrente
+//         ${colors.fg.yellow}[${colors.reset} 2 ${colors.fg.yellow}]${colors.fg.blue} -${colors.reset} Conta Poupança
 
 
-${colors.fg.green}=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=${colors.reset}
-Opção escolhida: `)
-        switch (this._tipo) {
-            case 1:
-                tipo = "Conta Corrente"
-                break
-            case 2:
-                tipo = "Conta poupança"
-                break
-            default:
-                console.log("Digite uma opção valida!")
-                break
-        }
-        console.log(`${colors.fg.green}=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=${colors.reset}`)
-        console.log(`${colors.fg.green}    *      ${colors.fg.yellow} *      ${colors.fg.blue}* * * * * * * * * *    ${colors.fg.yellow}  *   ${colors.fg.green}     *    `)
-        console.log(`${colors.fg.green} *     * ${colors.fg.yellow}  *    ${colors.fg.blue}* ${colors.fg.white}BANCO DO BRAZIL COM Z${colors.fg.blue} *   ${colors.fg.yellow} *   ${colors.fg.green} *     * `)
-        console.log(`${colors.fg.green}    *      ${colors.fg.yellow} *      ${colors.fg.blue}* * * * * * * * * *    ${colors.fg.yellow}  *   ${colors.fg.green}     *    `)
-        console.log(`${colors.fg.green}=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=${colors.reset}`)
+// ${colors.fg.green}=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=${colors.reset}
+// Opção escolhida: `)
+//         switch (this._tipo) {
+//             case 1:
+//                 tipo = "Conta Corrente"
+//                 break
+//             case 2:
+//                 tipo = "Conta poupança"
+//                 break
+//             default:
+//                 console.log("Digite uma opção valida!")
+//                 break
+//         }
+        // console.log(`${colors.fg.green}=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=${colors.reset}`)
+        // console.log(`${colors.fg.green}    *      ${colors.fg.yellow} *      ${colors.fg.blue}* * * * * * * * * *    ${colors.fg.yellow}  *   ${colors.fg.green}     *    `)
+        // console.log(`${colors.fg.green} *     * ${colors.fg.yellow}  *    ${colors.fg.blue}* ${colors.fg.white}BANCO DO BRAZIL COM Z${colors.fg.blue} *   ${colors.fg.yellow} *   ${colors.fg.green} *     * `)
+        // console.log(`${colors.fg.green}    *      ${colors.fg.yellow} *      ${colors.fg.blue}* * * * * * * * * *    ${colors.fg.yellow}  *   ${colors.fg.green}     *    `)
+        // console.log(`${colors.fg.green}=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=${colors.reset}`)
         console.log(`${colors.fg.green}       =-=-${colors.fg.yellow}=-=${colors.fg.blue}-=-${colors.reset}     Dados da Conta     ${colors.fg.blue}-=-${colors.fg.yellow}=-=${colors.fg.green}-=-= ${colors.reset}\n                       `)
         console.log(`Numero da Conta: ${this._numero}`)
         console.log(`Agência: ${this._agencia}`)
